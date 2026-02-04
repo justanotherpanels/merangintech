@@ -42,6 +42,8 @@ export function Header() {
             <Link href="#about" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">About</Link>
             <Link href="#features" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Keunggulan</Link>
             <Link href="#pricing" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Harga</Link>
+            <Link href="/custom-plugin" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Custom Plugin</Link>
+            <Link href="/jasa-aplikasi" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Jasa Aplikasi</Link>
             <Link 
               href="https://wa.me/6288293334443" 
               className="inline-flex items-center gap-2 rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-500/25"
@@ -63,6 +65,8 @@ export function Header() {
             <Link href="#about" className="text-sm font-medium text-slate-600 p-2 hover:bg-slate-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>About</Link>
             <Link href="#features" className="text-sm font-medium text-slate-600 p-2 hover:bg-slate-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>Keunggulan</Link>
             <Link href="#pricing" className="text-sm font-medium text-slate-600 p-2 hover:bg-slate-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>Harga</Link>
+            <Link href="/custom-plugin" className="text-sm font-medium text-slate-600 p-2 hover:bg-slate-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>Custom Plugin</Link>
+            <Link href="/jasa-aplikasi" className="text-sm font-medium text-slate-600 p-2 hover:bg-slate-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>Jasa Aplikasi</Link>
             <Link href="https://wa.me/6288293334443" className="text-sm font-medium text-blue-600 p-2 hover:bg-blue-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>Kontak</Link>
           </nav>
         </div>
