@@ -39,9 +39,7 @@ export function Header() {
           </Link>
           
           <nav className="hidden md:flex items-center gap-8">
-            <Link href="#about" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">About</Link>
-            <Link href="#features" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Keunggulan</Link>
-            <Link href="#pricing" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Harga</Link>
+            <Link href="/" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Home</Link>
             <Link href="/custom-plugin" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Custom Plugin</Link>
             <Link href="/jasa-aplikasi" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Jasa Aplikasi</Link>
             <Link 
@@ -62,9 +60,7 @@ export function Header() {
       {isMenuOpen && (
         <div className="md:hidden absolute top-full left-0 right-0 border-t border-slate-100 bg-white/95 backdrop-blur-xl p-4 shadow-xl">
           <nav className="flex flex-col gap-4">
-            <Link href="#about" className="text-sm font-medium text-slate-600 p-2 hover:bg-slate-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>About</Link>
-            <Link href="#features" className="text-sm font-medium text-slate-600 p-2 hover:bg-slate-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>Keunggulan</Link>
-            <Link href="#pricing" className="text-sm font-medium text-slate-600 p-2 hover:bg-slate-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>Harga</Link>
+            <Link href="/" className="text-sm font-medium text-slate-600 p-2 hover:bg-slate-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>Home</Link>
             <Link href="/custom-plugin" className="text-sm font-medium text-slate-600 p-2 hover:bg-slate-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>Custom Plugin</Link>
             <Link href="/jasa-aplikasi" className="text-sm font-medium text-slate-600 p-2 hover:bg-slate-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>Jasa Aplikasi</Link>
             <Link href="https://wa.me/6288293334443" className="text-sm font-medium text-blue-600 p-2 hover:bg-blue-50 rounded-lg" onClick={() => setIsMenuOpen(false)}>Kontak</Link>
